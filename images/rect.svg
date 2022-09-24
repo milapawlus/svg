@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="100">
+    <symbol id="rect">
+        <rect width="180" height="90" stroke="red" stroke-width="4" fill="orange" />
+    </symbol>
+</svg>
