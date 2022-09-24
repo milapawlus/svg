@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/style.css">
     <title>Svg</title>
 </head>
@@ -25,6 +26,12 @@
             <rect width="180" height="90" stroke="red" stroke-width="4" fill="orange">
         </svg>
         <p>From HTML</p>
+    </div>
+    <div class="rect">
+        <svg>
+            <use href="images/rect.svg#rect"></use>
+        </svg>
+        <p>From svg</p>
     </div>
 </body>
 </html>
